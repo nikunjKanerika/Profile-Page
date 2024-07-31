@@ -151,7 +151,7 @@ input[type="file"] {
     border-radius: 30px;
     padding: 10px;
     background-color: #fff;
-
+    margin: 10px auto;
     display: flex;
     justify-content: center;
     align-items: center;
