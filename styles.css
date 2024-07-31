@@ -1,0 +1,255 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6e6fa;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 10px 20px;
+}
+.nav-btn {
+    cursor: pointer;
+}
+
+.nav-btn.active {
+    background-color: #e7f3ff;
+    border-radius: 5px;
+}
+
+.active{
+    color: rgb(85, 85, 254);
+    outline: rgb(85, 85, 254);
+}
+
+/* main content */
+.main-content{
+    height: 600px;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* stack phone page section */
+.profile-phone-view {
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sub-sections{
+    background-color: rgb(248, 248, 248);
+    border-radius: 10px;
+    padding: 20px;
+
+}
+/* Profile Details section */
+.profile-link-section {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-heading{
+    height: 100px;
+    margin-bottom: 20px;
+}
+.profile-upload{
+    margin: 10px 0 0 0;
+    height: 200px;
+}
+
+
+/* Change image */
+.image-upload-container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.profile-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    }
+.change-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.image-upload-container:hover .change-image-overlay {
+    opacity: 1;
+}
+input[type="file"] {
+    display: none;
+}
+.profile-link-section .btn-primary {
+    margin-top: 20px;
+}
+
+input[type="file"] {
+    display: none;
+  }
+
+/* form details  */
+.form-details{
+    margin-top: 20px;
+}
+
+.hidden{
+    display: none;
+}
+
+/* Link-section */
+.link-item {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.link-item h3 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+}
+.link-item .form-group {
+    margin-bottom: 10px;
+}
+.link-item .btn-remove {
+    display: block;
+    margin-top: 10px;
+}
+#links-content #add-link-btn {
+    margin-top: 20px;
+    width: 100%;
+}
+#links-content .btn-outline-primary {
+    margin-bottom: 20px;
+}
+
+/* Phone-view-section */
+.outer-phone-boundary {
+    width: 320px;
+    height: 600px;
+    border: 2px solid #000;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .inner-phone-boundary {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.phone-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: grey;
+    margin: 0 auto 20px;
+}
+.profile-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.profile-email {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+.link-btn {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.github-btn {
+    background-color: #333;
+}
+.youtube-btn {
+    background-color: #ff0000;
+}
+.linkedin-btn {
+    background-color: #0077b5;
+}
+/* Profile-Preview-section  */
+
+#preview-section{
+    margin: 50px auto;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-email-profile {
+  margin-top: 20px;
+}
+
+#fullName {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#emailId {
+  font-size: 16px;
+  color: #555;
+}
+
+.links-list {
+  margin-top: 20px;
+}
+
+.links-list .link-item {
+  margin-bottom: 10px;
+}
+
+.links-list a {
+  display: block;
+  margin-bottom: 10px;
+  background-color: #228bf4; 
+  color: #fff; 
+  text-decoration: none; 
+  padding: 10px; 
+  border-radius: 4px;
+  width: 100%; 
+}
+
+.links-list a:hover {
+  background-color: #228bf4; 
+  color: #fff; 
+}
